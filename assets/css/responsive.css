@@ -1,0 +1,145 @@
+/*-----------------------------------------------------------------------------------*/
+/*	RESPONSIVE STYLES
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.logo a {width:120px; padding:15px 0;}
+	
+	.main_menu {top:125px;}
+	
+	#contacts .contact_form {padding:40px 0 0;}
+	#contacts .contact_form input[type="text"] {width:202px;}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.logo a {width:120px; padding:15px 0;}
+	
+	.main_menu {top:125px;}
+	
+	.home_wrap input[type="text"] {width:340px;}
+	
+	#pricing .price_item {padding:25px 10px;}
+	#pricing .price_title {font-size:16px; padding-bottom:25px;}
+	#pricing .price_amount {font-size:36px; line-height:36px; padding-bottom:20px;}
+	#pricing .price_inf {font-size:12px; padding:5px 0;}
+	#pricing .price_item a {min-width:120px;}
+	
+	#contacts .contact_form {padding:40px 0 0;}
+	#contacts .contact_form input[type="text"] {width:177px;}
+	.contacts_wrap_inf {font-size:13px; line-height:20px;}
+	
+	
+	
+	
+	.widgets_clear {display:block;}
+	
+}
+
+@media (max-width: 767px) {
+	
+	/* Menu */
+	header {position:fixed; z-index:100; top:0 !important; left:0; width:100%; margin:0; background-color:#f6f6f6;}
+	.menu_toggler {position:absolute; top:20px; right:30px; display:block; margin:0 auto; width:20px; height:20px; line-height:20px; text-align:center; font-size:21px; color:#39414e !important;}
+	
+	.main_menu {position:fixed; right:30px; top:10px !important; padding:0;}
+	.main_menu ul {position:absolute; left:0; top:67px; width:100%; text-align:left; background-color:#39414e;}
+	.main_menu li {display:block; margin:0; padding:0 0 4px 30px;}
+	.main_menu li:before, .main_menu li:after, .main_menu li a:before, .main_menu li a:after {display:none;}
+	.main_menu li a {color:rgba(255,255,255,0.5); padding:0;}
+	.main_menu li a:before {display:none;}
+	.main_menu li a:hover, .main_menu li.active a {background:none; color:#fff;}
+	
+	
+	.logo {float:left; margin:0;}
+	.logo a {width:60px; padding:15px 0;}
+	
+	.main_menu {top:124px;}
+	
+	#home, #home .container {height:300px;}
+	.home_wrap {margin-top:40px;}
+	.home_wrap h1 {font-size:26px; line-height:26px;}
+	.home_wrap input[type="text"] {width:170px;}
+	.home_wrap .submit_wrap {width:110px;}
+	
+	#pricing .price_item {float:none; width:100%; padding:25px 10px;}
+	
+	#map {right:0; bottom:340px; margin:0;}
+	#contacts .contact_form {padding:40px 0 0;}
+	#contacts .contact_form input[type="text"] {width:192px;}
+	.contacts_wrap_inf {font-size:13px; line-height:20px;}
+	
+	
+	
+	
+	
+	.widgets_clear {display:block;}
+	
+}
+
+@media (max-width: 479px) {
+	
+	.home_wrap input[type="text"] {width:222px;}
+	
+	#pricing .price_item {padding:25px 10px;}
+	#pricing .price_title {font-size:16px; padding-bottom:25px;}
+	#pricing .price_amount {font-size:36px; line-height:36px; padding-bottom:20px;}
+	#pricing .price_inf {font-size:12px; padding:5px 0;}
+	#pricing .price_item a {min-width:120px;}
+	
+	#contacts .contact_form input[type="text"] {width:100%; margin-right:0;}
+	
+	
+
+	/* Bootstrap Style fix */
+	.col-ss-1, .col-ss-2, .col-ss-3, .col-ss-4, .col-ss-5, .col-ss-6, .col-ss-7, .col-ss-8, .col-ss-9, .col-ss-10, .col-ss-11 {float: left;}
+	.col-ss-12 {width: 100%;}
+	.col-ss-11 {width: 91.66666666666666%;}
+	.col-ss-10 {width: 83.33333333333334%;}
+	.col-ss-9 {width: 75%;}
+	.col-ss-8 {width: 66.66666666666666%;}
+	.col-ss-7 {width: 58.333333333333336%;}
+	.col-ss-6 {width: 50%;}
+	.col-ss-5 {width: 41.66666666666667%;}
+	.col-ss-4 {width: 33.33333333333333%;}
+	.col-ss-3 {width: 25%;}
+	.col-ss-2 {width: 16.666666666666664%;}
+	.col-ss-1 {width: 8.333333333333332%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
